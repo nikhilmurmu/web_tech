@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4c4b4fb3;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding:10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #022c5a;
+}
+header {
+    background-color: #022c5a; /* Change to your desired color */
+    color: white; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Optional: Add additional styling for the header, such as font size, font family, etc. */
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <header>
+        <h1> 
+            <meta charset="UTF-8">
+            <div class="center-image">
+                <img src="logo2.png" height="80">
+            </div>
+        </h1>
+    </header>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Sport Field Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</header>
+<body>
+       
+    <div class="container">
+        <h1>Sports Field Booking</h1>
+        <form id="booking-form">
+            <label for="sport">Select Sport:</label>
+            <select id="sport" name="sport">
+                <option value="football">Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="tennis">Tennis</option>
+                <option value="cricket">Cricket</option>
+                <option value="volleyball">Volleyball</option>
+            </select>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="user">User:</label>
+            <input type="text" id="user" name="user">
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
